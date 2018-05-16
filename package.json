@@ -1,0 +1,20 @@
+{
+  "name": "test-api",
+  "version": "1.0.0",
+  "description": "test all api",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.1.1",
+    "request": "^2.85.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC"
+}
